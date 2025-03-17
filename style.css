@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+.first-img-div{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/234/301/121/space-solar-system-planet-sun-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8);
+    width: 100wh;
+    height: 100vh;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+}
+
+
+.with{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    padding-top: 12px;
+}
+.with ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+    font-weight: 700;
+}
+.with ul li a{
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+.with ul li a:hover{
+    color: rgb(86, 86, 88);
+}
+
+.first-img-div h1{
+    color: white;
+    z-index: 4;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 240px;
+    text-align: center;
+    width: 380px;
+}
+
+.first-p{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    width: 650px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.inner-h1{
+    font-size: 46px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.inner-p{
+    margin-left: 20px;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-planet1{
+    width: 280px;
+    height: 440px;
+    border: 1px solid rgb(198, 196, 196);
+    margin-top: 30px;
+}
+.inner-planet1 img{
+    width: 100%;
+    height: 280px;
+}
+
+.inner-planet1 p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+
+.second-sect{
+    margin-top: 50px;
+}
+
+
+.third-section{
+    margin-top: 50px;
+    height: 600px;
+    color: white;
+    z-index: 5;
+    background-image: url(https://cdn.hswstatic.com/gif/planet-order.jpg);
+}
+.distance-h1{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 40px;
+}
+
+#calc-btn{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.for-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#result-h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    width: 70%;
+}
+
+
+#planet-1{
+    border-radius: 6px;
+}
+#planet-2{
+    border-radius: 6px;
+}
+
+
+
+
+
+
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.add-img{
+    width: 35%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+
+
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+    .with ul{
+        gap: 40px;
+    }
+    
+    .inner-planet1{
+        width: 240px;
+        height: 390px;
+    }
+    .inner-planet1 img{
+        height: 250px;
+    }
+    .distance-h1{
+        font-size: 37px;
+    }
+
+
+    .add-img{
+        width: 40%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .with ul{
+        gap: 26px;
+    }
+
+    .inner-planet1{
+        width: 170px;
+        height: 320px;
+    }
+    .inner-planet1 img{
+        height: 170px;
+    }
+
+    .inner-planet1 p{
+        font-size: 13px;
+    }
+
+    .add-img{
+        width: 50%;
+    }
+
+    .main-div{
+        gap: 120px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .with ul{
+        gap: 15px;
+        width: 500px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        line-height: 13px;
+    }
+    .with{
+        height: 65px;
+    }
+    .first-img-div h1{
+        font-size: 40px;
+        width: 300px;
+    }
+
+    .first-p{
+        width: 580px;
+    }
+
+    .flex-1{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .distance-h1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 30px;
+    }
+    .input-div{
+        gap: 30px;
+    }
+
+    .add-img{
+        width: 50%;
+    }
+
+    .main-div{
+        gap: 120px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .with ul{
+        gap: 15px;
+        width: 95%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        line-height: 13px;
+    }
+    .with{
+        height: 70px;
+    }
+    .first-img-div h1{
+        font-size: 35px;
+        width: 300px;
+    }
+    .with ul li a{
+        font-size: 13px;
+    }
+
+
+    .first-img-div h1{
+        font-size: 40px;
+        width: 300px;
+    }
+
+    .first-p{
+        width: 90%;
+    }
+
+    .flex-1{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .distance-h1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    .input-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .input-div div:nth-of-type(1){
+        margin-left: 24px;
+    }
+    
+
+
+    .add-img{
+        width: 60%;
+    }
+
+    .main-div{
+        gap: 220px;
+    }
+    .main-div button{
+        width: 35px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 430px){
+    .add-img{
+        width: 65%;
+    }
+
+    .main-div{
+        gap: 200px;
+    }
+}
