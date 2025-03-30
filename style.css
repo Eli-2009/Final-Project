@@ -110,6 +110,7 @@
 .distance-h1{
     margin-left: 50px;
     font-size: 40px;
+    color: rgb(147, 147, 147);
 }
 
 .input-div{
@@ -141,10 +142,16 @@
 
 
 #planet-1{
-    border-radius: 6px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    padding: 2px;
 }
 #planet-2{
-    border-radius: 6px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    padding: 2px;
 }
 
 
@@ -154,7 +161,8 @@
 
 .main-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 0px;
     margin-top: 100px;
 }
 
@@ -162,9 +170,21 @@
     width: 35%;
     height: 30%;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -347px;
 }
 
+.btn1{
+    height: 340px;
+    width: 170px;
+    z-index: 99;
+    opacity: 0;
+}
+.btn2{
+    height: 340px;
+    width: 170px;
+    z-index: 99;
+    opacity: 0;
+}
 
 
 
@@ -211,10 +231,20 @@
 
     .add-img{
         width: 50%;
+        margin-top: -250px;
     }
 
     .main-div{
-        gap: 120px;
+        gap: 40px;
+    }
+
+
+
+    .btn1{
+        height: 250px;
+    }
+    .btn2{
+        height: 250px;
     }
 }
 
@@ -254,11 +284,24 @@
     }
 
     .add-img{
-        width: 50%;
+        width: 70%;
+        margin-top: -290px;
     }
 
     .main-div{
-        gap: 120px;
+        gap: 220px;
+    }
+
+
+
+
+
+
+    .btn1{
+        height: 50vh;
+    }
+    .btn2{
+        height: 50vh;
     }
 }
 
@@ -318,27 +361,40 @@
 
 
     .add-img{
-        width: 60%;
+        width: 80%;
+        margin-top: -277px;
     }
 
     .main-div{
         gap: 220px;
     }
-    .main-div button{
-        width: 35px;
-        font-size: 10px;
+
+    .btn1{
+        height: 50vh;
+        /* width: 110px; */
     }
+
+    .btn2{
+        height: 50vh;
+        /* width: 110px; */
+    }
+
 }
 
 
 
 
 @media screen and (min-width: 300px) and (max-width: 430px){
-    .add-img{
-        width: 65%;
-    }
-
     .main-div{
-        gap: 200px;
+        gap: 110px;
+    }
+    .btn1{
+        height: 28vh;
+    }
+    .btn2{
+        height: 28vh;
+    }
+    .add-img{
+        margin-top: -160px;
     }
 }

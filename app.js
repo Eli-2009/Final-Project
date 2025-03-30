@@ -19,7 +19,7 @@ function calculate() {
         resultElement.style.color = 'red'
         return;
     }else{
-        resultElement.style.color = 'black'
+        resultElement.style.color = 'rgb(147, 147, 147)'
     }
 
     const distance1 = planetDistances[planet1];
@@ -33,7 +33,6 @@ function calculate() {
 
 const calcbtn = document.getElementById('calc-btn');
 calcbtn.addEventListener('click', calculate);
-
 
 
 
