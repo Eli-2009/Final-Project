@@ -42,7 +42,6 @@ calcbtn.addEventListener('click', calculate);
 
 
 
-
 let img1 = document.createElement('img');
 img1.src = 'https://www.worldatlas.com/r/w1200/upload/e8/9d/7c/shutterstock-1055322356.jpg';
 img1.classList.add('add-img');

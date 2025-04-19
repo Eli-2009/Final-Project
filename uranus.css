@@ -34,7 +34,6 @@
 }
 
 
-
 .background{
     background-image: url(https://ychef.files.bbci.co.uk/1280x720/p0257vk5.jpg);
     background-repeat: no-repeat;
@@ -123,8 +122,16 @@
     background-color: rgb(56, 56, 56);
     width: 300px;
     height: 80px;
+    padding-left: 13px;
+    padding-top: 10px;
+    line-height: 18px;
+    border-radius: 12px;
 }
 
+.to-right{
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
 .main-div h1{
